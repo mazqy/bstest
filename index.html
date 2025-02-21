@@ -9,76 +9,15 @@
 <body>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6191120541878626"
      crossorigin="anonymous"></script>
-    <!-- meme -->
+    <!-- asdf -->
     <ins class="adsbygoogle"
         style="display:block"
         data-ad-client="ca-pub-6191120541878626"
-        data-ad-slot="3126290009"
+        data-ad-slot="4396845930"
         data-ad-format="auto"
         data-full-width-responsive="true"></ins>
     <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-    <div class="container">
-        <header>
-            <h1>🌟 Test de Brawl Stars 🌟</h1>
-            <img src="brawl-stars-logo.png" alt="Logo de Brawl Stars" class="logo">
-        </header>
-
-        <form id="quiz-form">
-            <!-- Pregunta 1 -->
-            <div class="question">
-                <p>1. ¿Cuál es el brawler más icónico de Brawl Stars?</p>
-                <label><input type="radio" name="q1" value="0"> Colt</label>
-                <label><input type="radio" name="q1" value="1"> Shelly</label>
-                <label><input type="radio" name="q1" value="0"> Bull</label>
-            </div>
-
-            <!-- Pregunta 2 -->
-            <div class="question">
-                <p>2. ¿Qué modo de juego es conocido por su "caos total"?</p>
-                <label><input type="radio" name="q2" value="0"> Gemas</label>
-                <label><input type="radio" name="q2" value="1"> Atrapagemas</label>
-                <label><input type="radio" name="q2" value="0"> Balón Brawl</label>
-            </div>
-
-            <!-- Pregunta 3 -->
-            <div class="question">
-                <p>3. ¿Qué brawler tiene un ataque de largo alcance?</p>
-                <label><input type="radio" name="q3" value="1"> Brock</label>
-                <label><input type="radio" name="q3" value="0"> Nita</label>
-                <label><input type="radio" name="q3" value="0"> El Primo</label>
-            </div>
-
-            <!-- Botón de envío -->
-            <button type="button" onclick="calculateScore()">Enviar Respuestas</button>
-        </form>
-
-        <!-- Resultado -->
-        <div id="result" class="hidden">
-            <h2>Tu Puntuación:</h2>
-            <p id="score"></p>
-        </div>
-    </div>
-    
-    <script>
-        function calculateScore() {
-            let score = 0;
-
-            // Obtener respuestas
-            const q1 = document.querySelector('input[name="q1"]:checked');
-            const q2 = document.querySelector('input[name="q2"]:checked');
-            const q3 = document.querySelector('input[name="q3"]:checked');
-
-            // Sumar puntos
-            if (q1) score += parseInt(q1.value);
-            if (q2) score += parseInt(q2.value);
-            if (q3) score += parseInt(q3.value);
-
-            // Mostrar resultado
-            document.getElementById('score').textContent = `${score} / 3`;
-            document.getElementById('result').classList.remove('hidden');
-        }
     </script>
 </body>
 </html>
